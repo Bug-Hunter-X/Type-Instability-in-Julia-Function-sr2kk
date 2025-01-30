@@ -1,0 +1,3 @@
+# Julia Type Instability Bug
+
+This repository demonstrates a type instability issue in Julia, leading to unexpected behavior. The `bug.jl` file contains a function that exhibits type instability, while `bugSolution.jl` provides a corrected version. The problem stems from the function returning different types depending on the input, causing performance degradation and potential incorrect results.  The solution focuses on ensuring the function always returns the same data type regardless of the input.
